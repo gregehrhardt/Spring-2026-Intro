@@ -14,7 +14,7 @@ class Splash {
   line(windowWidth-this.splashBorder-40, this.splashBorder+20,windowWidth-this.splashBorder-20, this.splashBorder+40)
    line(windowWidth-this.splashBorder-20, this.splashBorder+20,windowWidth-this.splashBorder-40, this.splashBorder+40)
    
-  this.title = createDiv("title");
+  this.title = createDiv("Nostalgic Drone");
   this.title.style('color:deeppink');
   this.title.style('font-family: Arial, Helvetica, sans-serif');
   this.title.position(this.splashBorder+20, this.splashBorder+20);
@@ -22,7 +22,7 @@ class Splash {
   this.name = createDiv("Greg Ehrhardt");
   this.name.position(this.splashBorder+20, this.splashBorder+60);
   
-  this.info = createDiv("text<p> text <p> <a href=https://editor.p5js.org/gehrhar1/sketches/SXrklqaqH>view code</a>");
+  this.info = createDiv("With this project, I aimed to create a droning synth that gradually changes based on random values. I wanted to prioritize a serene and nostalgic sound over complicated evolving patterns. The synth oscillates between different chord voicings and timbres. You can press any of the number keys to change the chords. The image overlaid is a photo I took in Idaho, and the visual effects synced to the sound are meant to evoke a sense of nostalgia.<p> <p> <a href=https://editor.p5js.org/gehrhar1/sketches/SXrklqaqH>view code</a>");
   
   this.info.position(this.splashBorder+20, this.splashBorder+100);
   this.info.size(windowWidth-this.splashBorder*2-50, windowHeight-this.splashBorder*2-50)
